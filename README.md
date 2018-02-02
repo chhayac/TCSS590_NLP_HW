@@ -7,7 +7,7 @@ Write a function, that given a sequence of three words (w1,w2,w3), would compute
 
 Program can be run from command line as: 
 
-python <trigram_model.py> <filepath> \<word1\> \<word2\> \<word3\>
+__python <trigram_model.py> <filepath> \<word1\> \<word2\> \<word3\>__
   
 where filepath contains file having combined data of positive files and negative files in movie review dataset
 word1, word2 and word3 are candidate tokens for the model. The output represents probability of word3 appearing after sequence of word1 and word2.
