@@ -1,9 +1,9 @@
-Homework Submission # 1 
-TCSS590: Natural Language Processing 
-Winter 2018 
-Chhaya Choudhary
+## Homework Submission # 1 
+### TCSS590: Natural Language Processing 
+### Winter 2018 
+#### Chhaya Choudhary
 
-
+Write a function, that given a sequence of three words (w1,w2,w3), would compute the probability of third word using trigram language model p(w3|w1,w2). If you're using log-probabilities, use base 2 for computing logs.
 
 Program can be run from command line as: 
 python <trigram_model.py> <filepath> <word1> <word2> <word3>
