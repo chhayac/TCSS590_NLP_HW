@@ -16,22 +16,22 @@ word1, word2 and word3 are candidate tokens for the model. The output represents
 
 #### Test cases:
 
-python trigram_model.py dataset/hw1 hello world yahoo
+python trigram_model.py ..\HW1 hello world yahoo
 
-Probability of [ yahoo ] appearing after [ hello ] and [ world ] is 0.00022527596305474206
+Probability of [ yahoo ] appearing after [ hello ] and [ world ] is 0.00022517451024544022
 
-python trigram_model.py dataset/hw1 ruben santiago hudson
+python trigram_model.py ..\HW1 ruben santiago hudson
 
-Probability of [ hudson ] appearing after [ ruben ] and [ santiago ] is 0.00041291291291291294
+Probability of [ hudson ] appearing after [ ruben ] and [ santiago ] is 0.0013492241960872497
 
-python trigram_model.py dataset/hw1 three ten year
+python trigram_model.py ..\HW1 three ten year
 
-Probability of [ year ] appearing after [ three ] and [ ten ] is 0.00045045045045045046
+Probability of [ year ] appearing after [ three ] and [ ten ] is 0.0006752194463200541
 
-python trigram_model.py dataset/hw1t vincent price peter
+python trigram_model.py ..\HW1 vincent price peter
 
-Probability of [ peter ] appearing after [ vincent ] and [ price ] is 0.00033783783783783786
+Probability of [ peter ] appearing after [ vincent ] and [ price ] is 0.0006749156355455568
 
-python trigram_model.py dataset/hw1 albert finney tom
+python trigram_model.py ..\HW1 albert finney tom
 
-Probability of [ tom ] appearing after [ albert ] and [ finney ] is 0.0003153153153153153
+Probability of [ tom ] appearing after [ albert ] and [ finney ] is 0.0011233430689732643
